@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+
+    .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container"> 
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"> 
+      <div class="col-md-3 mb-2 mb-md-0"> <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none"> 
+        <img src="./Logo.svg" height="40px">    <h2>First Aid</h2> </a> 
+      </div> 
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> 
+        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li> 
+        <li><a href="#" class="nav-link px-2">Medicine</a></li> 
+        <li><a href="#" class="nav-link px-2">Pricing</a></li> 
+        <li><a href="#" class="nav-link px-2">FAQs</a></li> 
+        <li><a href="#" class="nav-link px-2">About Us</a></li> 
+      </ul> 
+      <div class="col-md-3 text-end"> 
+        <button type="button" class="btn btn-outline-primary me-2">Login</button> 
+        <button type="button" class="btn btn-primary">Sign-up</button> 
+      </div> 
+    </header> 
+  </div>
+  <div class="container col-xxl-8 px-4 py-5"> 
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+      <div class="col-10 col-sm-8 col-lg-6"> 
+        <img src="./First-Page.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> 
+      </div> <div class="col-lg-6"> 
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Rapid Relief. Right When You Need It.</h1> 
+        <p class="lead">Small injuries or sudden emergencies can happen anytime. That’s why we bring you fast and trusted <b> First Aid </b> products, exactly when you need them. No waiting, no stress — just quick relief and care at your doorstep.</p> 
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Order Now</button> 
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Visit Our Stores</button> 
+        </div> 
+      </div> 
+    </div> 
+  </div>
+
+  <div class="container px-4 py-5" id="hanging-icons"> 
+    <h2 class="pb-2 border-bottom">Why Us?</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+      <div class="col d-flex align-items-start"> '
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+          <img src="./Verified.svg" alt="Verified Tag" height="25px">
+        </div> 
+        <div> 
+          <h3 class="fs-2 text-body-emphasis">Genuine Medicines</h3> 
+          <p>We source directly from verified suppliers to ensure 100% original and safe products. Your health deserves nothing less than trusted, high-quality care. Say goodbye to fake or low-grade items and shop with confidence.</p>  
+        </div> 
+      </div> 
+      <div class="col d-flex align-items-start"> 
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+          <img src="./truck.svg" alt="Truck" height="25px">
+        </div> 
+        <div> 
+          <h3 class="fs-2 text-body-emphasis">Fast Delivery</h3> 
+          <p>Quick processing and doorstep delivery, so you get the right care without delay. We know emergencies can’t wait, that’s why we don’t either. Your order reaches you fast, fresh, and ready to use.</p> 
+        </div> 
+      </div> 
+      <div class="col d-flex align-items-start"> 
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+          <img src="./bus-front.svg" alt="Bus Froont" height="25px">
+        </div> 
+        <div> 
+          <h3 class="fs-2 text-body-emphasis">Countrywide</h3> 
+          <p>Wherever you are in Pakistan, we’re just a click away, delivering to cities, towns, and remote areas. Wherever you are in Pakistan, we’re just a click away, delivering to cities, towns, and remote areas.</p> 
+        </div> 
+      </div> 
+    </div> 
+  </div>
+
+<div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Carousel-1.png" class="d-block w-100" alt="first Carousel Image">
+    </div>
+    <div class="carousel-item">
+      <img src="./Carousel-2.png" class="d-block w-100" alt="second Carousel Image">
+    </div>
+    <div class="carousel-item">
+      <img src="./Carousel-3.png" class="d-block w-100" alt="third Carousel Image">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</div>
+
+  <div class="container"> 
+    <footer class="py-5"> 
+      <div class="row"> 
+        <div class="col-6 col-md-2 mb-3"> 
+          <h5>Section</h5> 
+          <ul class="nav flex-column"> 
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li> 
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+          </ul> 
+        </div> 
+        <div class="col-6 col-md-2 mb-3"> 
+          <h5>Section</h5> 
+          <ul class="nav flex-column"> 
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li> 
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+          </ul> 
+        </div> 
+        <div class="col-6 col-md-2 mb-3"> 
+          <h5>Section</h5> 
+          <ul class="nav flex-column"> 
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li> 
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li> 
+            <li class="nav-item mb-2">
+            </div> 
+            <div class="col-md-5 offset-md-1 mb-3"> 
+              <form> 
+                <h5>Subscribe to our newsletter</h5> 
+                <p>Monthly digest of what's new and exciting from us.</p> 
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2"> 
+                  <label for="newsletter1" class="visually-hidden">Email address</label> 
+                  <input id="newsletter1" type="email" class="form-control" placeholder="Email address"> 
+                  <button class="btn btn-primary" type="button">Subscribe</button> 
+                </div> 
+              </form> 
+            </div> 
+          </div> 
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"> 
+            <p>© 2025 Company, Inc. All rights reserved.</p> 
+            <ul class="list-unstyled d-flex"> 
+              <li class="ms-3">
+                <a class="link-body-emphasis" href="#" aria-label="Instagram">
+                  <svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg>
+                </a>
+                </li> 
+                  <li class="ms-3">
+                    <a class="link-body-emphasis" href="#" aria-label="Facebook">
+                      <svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#facebook"></use></svg>
+                    </a>
+                  </li> 
+                </ul> 
+              </div> 
+            </footer> 
+          </div>
+  
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
